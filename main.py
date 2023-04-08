@@ -1,4 +1,5 @@
 from src import plyer_notify
+from src import notify
 
 
 def main():
@@ -7,3 +8,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # notify.show_news_notification()
