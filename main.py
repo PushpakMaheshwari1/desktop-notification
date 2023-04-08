@@ -1,8 +1,9 @@
-from plyer import notification
+from src import plyer_notify
 
-notification.notify(
-    title="Sample Title",
-    message="hello world!",
-    app_icon=None,
-    timeout=10,
-)
+
+def main():
+    plyer_notify.notify("Hello World", "This notification uses python plyer library")
+
+
+if __name__ == "__main__":
+    main()
